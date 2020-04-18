@@ -14,9 +14,11 @@ const searchCountries = async searchText => {
 
   if (searchText.length == 0) {
     matches = [];
+    matchList.innerHTML = '';
   }
 
   outputHTML(matches);
+
 };
 
 //show results in HTML
@@ -24,8 +26,8 @@ const outputHTML = matches => {
   if (matches.length > 0) {
     const HTML = matches.map(match => `
     <div class ="card card-body mb-1"> 
-      <h4>${match.country} (${match.abbr}) <span class = "text-primary" ${match.capital} </span> </h4>
-      <small>Lat: ${match.lat} / Long: ${match.lng}</small>
+      <h4> <span class="text-secondary"> ${match.country} </span>${match.capital} </h4>
+      <small>Lat: ${match.location.lat} / Long: ${match.location.lng}</small>
     </div>
     `).join(' ');
 
