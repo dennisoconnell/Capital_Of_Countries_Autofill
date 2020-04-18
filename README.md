@@ -1,2 +1,3 @@
 # capital_of_countries_quick_autofill_app
- quick autofill app where you can look up the capital of a country
+
+Simple web app that searches a JSON file using the Fetch API, Async/Await, Regex and high order array methods
