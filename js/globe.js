@@ -78,3 +78,4 @@
                     this.parentNode.appendChild(this);
                 });
             }
+//still needs to map to the search query and not just arbitrary points
