@@ -1,3 +1,8 @@
-# capital_of_countries_quick_autofill_app
+# World Capital Search, A Country Capital Search Tool
 
-Simple web app that searches a JSON file using the Fetch API, Async/Await, Regex and high order array methods
+## Description
+
+
+## What was the motivation behind this project?
+
+## Tools used in the creation of this project
