@@ -1,4 +1,5 @@
-# Capital Search, A Country Capital Search Tool
+# Capital Search
+A Country Capital Search Tool
 
 ## Description
 
